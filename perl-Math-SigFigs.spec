@@ -8,12 +8,12 @@
 Summary:	Math::SigFigs - do math with correct handling of significant figures
 Summary(pl):	Math::SigFigs - obliczenia z poprawn± obs³ug± cyfr znacz±cych
 Name:		perl-Math-SigFigs
-Version:	1.02
-Release:	2
+Version:	1.03
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pnam}-%{version}.tar.gz
-# Source0-md5:	33181d954f2cfa568a7ba6c3e2232fb8
+# Source0-md5:	aadb520282bd6b8d8ab1299d981dbaad
 BuildRequires:	perl-devel >= 5.6
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
