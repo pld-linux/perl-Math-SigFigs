@@ -2,7 +2,7 @@
 Summary:	Math::SigFigs - do math with correct handling of significant figures
 Name:		perl-Math-SigFigs
 Version:	1.01
-Release:	7
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/Math/SigFigs-%{version}.tar.gz
