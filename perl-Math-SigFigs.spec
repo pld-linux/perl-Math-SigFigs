@@ -3,7 +3,7 @@ Summary:	Math-SigFigs perl module
 Summary(pl):	Modu³ perla Math-SigFigs
 Name:		perl-Math-SigFigs
 Version:	1.01
-Release:	6
+Release:	7
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Math/SigFigs-%{version}.tar.gz
