@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Math
-%define	pnam	SigFigs
+%define		pdir	Math
+%define		pnam	SigFigs
 Summary:	Math::SigFigs - do math with correct handling of significant figures
 Summary(pl):	Math::SigFigs - obliczenia z poprawn± obs³ug± cyfr znacz±cych
 Name:		perl-Math-SigFigs
