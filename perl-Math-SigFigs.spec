@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
-Summary:	Math-SigFigs perl module
-Summary(pl):	Modu³ perla Math-SigFigs
+Summary:	Math::SigFigs perl module
+Summary(pl):	Modu³ perla Math::SigFigs
 Name:		perl-Math-SigFigs
 Version:	1.01
 Release:	7
@@ -13,10 +13,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Math-SigFigs perl module.
+Math::SigFigs perl module.
 
 %description -l pl
-Modu³ perla Math-SigFigs.
+Modu³ perla Math::SigFigs.
 
 %prep
 %setup -q -n SigFigs-%{version}
