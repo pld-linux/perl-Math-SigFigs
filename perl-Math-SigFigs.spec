@@ -10,7 +10,8 @@ Summary(pl):	Math::SigFigs - obliczenia z poprawn± obs³ug± cyfr znacz±cych
 Name:		perl-Math-SigFigs
 Version:	1.03
 Release:	1
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pnam}-%{version}.tar.gz
 # Source0-md5:	aadb520282bd6b8d8ab1299d981dbaad
@@ -41,6 +42,7 @@ kto¶ jest Randalem Schwartzem :-)).
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
 %{__make}
+
 %{?with_tests:%{__make} test}
 
 %install
