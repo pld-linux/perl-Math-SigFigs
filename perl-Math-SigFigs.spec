@@ -1,6 +1,5 @@
 %include	/usr/lib/rpm/macros.perl
-Summary:	Math::SigFigs perl module
-Summary(pl):	Modu³ perla Math::SigFigs
+Summary:	Math::SigFigs - do math with correct handling of significant figures
 Name:		perl-Math-SigFigs
 Version:	1.01
 Release:	7
@@ -13,10 +12,11 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Math::SigFigs perl module.
-
-%description -l pl
-Modu³ perla Math::SigFigs.
+In many scientific applications, it is often useful to be able to format
+numbers with a given number of significant figures, or to do math in
+such a way as to maintain the correct number of significant figures.
+The rules for significant figures are too complicated to be handled solely
+using the sprintf function (unless you happen to be Randal Schwartz :-).
 
 %prep
 %setup -q -n SigFigs-%{version}
