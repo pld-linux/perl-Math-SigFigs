@@ -6,7 +6,7 @@
 %define		pdir	Math
 %define		pnam	SigFigs
 Summary:	Math::SigFigs - do math with correct handling of significant figures
-Summary(pl):	Math::SigFigs - obliczenia z poprawn± obs³ug± cyfr znacz±cych
+Summary(pl.UTF-8):   Math::SigFigs - obliczenia z poprawnÄ… obsÅ‚ugÄ… cyfr znaczÄ…cych
 Name:		perl-Math-SigFigs
 Version:	1.04
 Release:	1
@@ -28,12 +28,12 @@ figures. The rules for significant figures are too complicated to be
 handled solely using the sprintf function (unless you happen to be
 Randal Schwartz :-).
 
-%description -l pl
-W wielu aplikacjach naukowych przydaje siê formatowanie liczb z zadan±
-liczb± cyfr znacz±cych albo wykonywanie obliczeñ z zachowaniem
-poprawnej liczby cyfr znacz±cych. Zasady dla cyfr znacz±cych s± zbyt
-skomplikowane, by mog³y byæ obs³u¿one przez funkcjê sprint (chyba ¿e
-kto¶ jest Randalem Schwartzem :-)).
+%description -l pl.UTF-8
+W wielu aplikacjach naukowych przydaje siÄ™ formatowanie liczb z zadanÄ…
+liczbÄ… cyfr znaczÄ…cych albo wykonywanie obliczeÅ„ z zachowaniem
+poprawnej liczby cyfr znaczÄ…cych. Zasady dla cyfr znaczÄ…cych sÄ… zbyt
+skomplikowane, by mogÅ‚y byÄ‡ obsÅ‚uÅ¼one przez funkcjÄ™ sprint (chyba Å¼e
+ktoÅ› jest Randalem Schwartzem :-)).
 
 %prep
 %setup -q -n %{pnam}-%{version}
