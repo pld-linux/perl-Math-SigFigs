@@ -6,7 +6,7 @@
 %define		pdir	Math
 %define		pnam	SigFigs
 Summary:	Math::SigFigs - do math with correct handling of significant figures
-Summary(pl.UTF-8):   Math::SigFigs - obliczenia z poprawną obsługą cyfr znaczących
+Summary(pl.UTF-8):	Math::SigFigs - obliczenia z poprawną obsługą cyfr znaczących
 Name:		perl-Math-SigFigs
 Version:	1.04
 Release:	1
