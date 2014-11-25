@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Math
 %define		pnam	SigFigs
+%include	/usr/lib/rpm/macros.perl
 Summary:	Math::SigFigs - do math with correct handling of significant figures
 Summary(pl.UTF-8):	Math::SigFigs - obliczenia z poprawną obsługą cyfr znaczących
 Name:		perl-Math-SigFigs
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pnam}-%{version}.tar.gz
 # Source0-md5:	eb842271073dc19d9168aef0bf72f35f
+URL:		http://search.cpan.org/dist/Math-SigFigs/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
