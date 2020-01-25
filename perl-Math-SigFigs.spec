@@ -4,7 +4,6 @@
 
 %define		pdir	Math
 %define		pnam	SigFigs
-%include	/usr/lib/rpm/macros.perl
 Summary:	Math::SigFigs - do math with correct handling of significant figures
 Summary(pl.UTF-8):	Math::SigFigs - obliczenia z poprawną obsługą cyfr znaczących
 Name:		perl-Math-SigFigs
